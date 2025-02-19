@@ -1,0 +1,11 @@
+name= input("enter your name :")
+greet=(f"hello{name},how are you?")
+print(greet)
+name="    subham    gyawali    "
+print(name.upper())
+print(name.lower())
+print(name.capitalize())
+print(name.title())
+print(name.split(" "))
+print(name.replace("subham","anish"))
+print(name.strip())
