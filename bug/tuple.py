@@ -1,0 +1,17 @@
+colors=("red","orange","green")
+print(type(colors))
+# print(colors[0])
+print(colors)
+to=("black",2)
+print(type(to))
+print(colors[1])
+odd=(1,3,5)
+even=(2,4,6)
+add_numbers=odd+even
+print(f"the add numbers is {add_numbers}")
+print(len(colors))
+print(colors[0])
+print(colors[-1])
+combine_tuple=colors+to
+print(f"the tuple combined is {combine_tuple}")
+print(len(combine_tuple))
