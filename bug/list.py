@@ -8,6 +8,9 @@ print(len(names))
 names.reverse()
 
 print(names)
+r="ram"
+int(r)
+print(r)
 
 
 
