@@ -17,10 +17,9 @@ what do you want to do?
     elif user_input==2:
         amount=float(input("enter amount to deposit:"))
         balance+=amount
-        print(f"successfully balanced".yourbalance is" {balance}")
+        print(f"successfully balanced. your balance is {balance}")
     elif user_input==3:
         amount=float(input("enter amount to withdraw:"))
-        balance+=balance+amount
         if balance>=amount:
             balance-=amount
             print(f"withdraw success.your new balance is {balance}")
